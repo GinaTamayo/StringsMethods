@@ -37,7 +37,7 @@ function commentLowerCase() {
     commentUser.value = commentUser.value.toLowerCase();
 }
 
-commentUser.addEventListener('input', decreaseCounter)
+commentUser.addEventListener('input', decreaseCounter);
 
 
 submitComment.addEventListener('click', function () {

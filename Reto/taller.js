@@ -30,8 +30,7 @@ if (msgEjercicios == true) {
 
 // 5. Reemplaza los espacio por el caracter "-" e imprime el resultado final.
 
-console.log(msg.replace(/ /g, '-'));
-
+console.log(msg.replace(new RegExp(' ', 'g'), '-'));
 
 
 // 6. Realiza en el DOM un software que compare si dos campos de password son iguales.
